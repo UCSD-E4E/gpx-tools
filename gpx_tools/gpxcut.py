@@ -11,8 +11,8 @@ def main():
     )
     parser.add_argument('gpx')
     parser.add_argument('--track', '-t', default=None)
-    parser.add_argument('--start', default=None)
-    parser.add_argument('--stop', default=None)
+    parser.add_argument('--start', default=None, help="ISO Datetime string of start time")
+    parser.add_argument('--stop', default=None, help="ISO Datetime string of stop time")
     parser.add_argument("--output", "-o")
 
     args = parser.parse_args()
