@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "gpxcut",
+            "type": "python",
+            "request": "launch",
+            "module": "gpx_tools.gpxcut",
+            "justMyCode": true,
+            "args": [
+                "2022-05-21_GPS003.gpx",
+                "--start",
+                "2022-05-21T11:00-04:00",
+                "--stop",
+                "2022-05-21T12:30-04:00",
+                "-o",
+                "output.gpx"
+            ]
+        }
+    ]
+}
